@@ -1,5 +1,29 @@
 .root {
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 4px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: repeat(50,1fr);
+    grid-template-rows: repeat(10,5vh);
+
+
+    .title {
+        grid-column: 1 / 51;
+        grid-row: 1 / 2;
+        font-size: 24px;
+    }
+    .name {
+        grid-column: 1 / 45;
+        grid-row: auto;
+    }
+    .quantity {
+        grid-column: 45 / 51;
+        grid-row: auto;
+    }
+    .drop {
+        grid-column: 40 / 51;
+        grid-row: 10 / 11;
+        color: red;
+    }
+
 }
