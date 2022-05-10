@@ -1,6 +1,7 @@
 
 # dependencies
 /node_modules
+/simple_api/node_modules
 /.pnp
 .pnp.js
 
@@ -25,6 +26,8 @@ yarn-error.log*
 # не следить за ярлыками запуска
 *.cmd
 
+# не следить ярн
+yarn.lock
 
 /.idea
 
